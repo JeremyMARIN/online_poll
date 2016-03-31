@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Online Poll</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header id="header">
+			<div class="panel round">
+				<h2 class="text-centered">Online Poll</h2>
+			</div>
+		</header>
+
+		<div id="content">
+			<div class="panel round">
+				<form action="poll.php" method="post">
+					<div class="radio-container">
+						<fieldset class="text-centered">
+							<legend>Choose an answer:</legend>
+							<input id="choice_a" type="radio" name="choice" value="a" checked="checked"/><label for="choice_a">Choice A</label><br />
+							<input id="choice_b" type="radio" name="choice" value="b"/><label for="choice_b">Choice B</label><br />
+							<input id="choice_c" type="radio" name="choice" value="c"/><label for="choice_c">Choice C</label><br />
+							<input id="choice_d" type="radio" name="choice" value="d"/><label for="choice_d">Choice D</label><br />
+							<input id="choice_e" type="radio" name="choice" value="e"/><label for="choice_e">Choice E</label>
+						</fieldset>
+					</div>
+					<div class="bottom-container text-centered">
+						<div class="submit-container">
+							<button class="round" type="submit">Submit</button>
+						</div>
+						<div>
+							<label for="email">Your email:</label>
+							<input id="email" type="email" name="email" class="round text-centered" placeholder="f.lastname@gmail.com"/>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
