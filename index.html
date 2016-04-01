@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
-	<body>
+	<body onload="init();">
 		<header id="header">
 			<div class="panel round">
 				<h2 class="text-centered">Online Poll</h2>
@@ -26,15 +26,16 @@
 					</div>
 					<div class="bottom-container text-centered">
 						<div class="submit-container">
-							<button class="round" type="submit">Submit</button>
+							<button id="submit" class="round" type="submit" disabled="disabled">Submit</button>
 						</div>
 						<div>
 							<label for="email">Your email:</label>
-							<input id="email" type="email" name="email" class="round text-centered" placeholder="f.lastname@gmail.com"/>
+							<input id="email" type="text" name="email" class="round text-centered" placeholder="f.lastname@gmail.com"/>
 						</div>
 					</div>
 				</form>
 			</div>
 		</div>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
