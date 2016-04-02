@@ -25,6 +25,21 @@ fieldset {
 	margin: auto;
 }
 
+table {
+	width: 50%;
+	margin: auto;
+	color: white;
+}
+td {
+	text-align: center;
+}
+td:first-child {
+	width: 70%;
+}
+td:last-child {
+	width: 30%;
+}
+
 a:link {
 	color: #f0bb00;
 }
