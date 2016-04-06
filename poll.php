@@ -41,7 +41,7 @@ include("include/helpers.php");
 				<br /><br /><br />
 
 				<div class="text-centered">
-					<a href="index.html"><button class="round" type="button">Go back</button></a>
+					<a href="index.html"><button class="round" type="button">Go back to the poll</button></a>
 				</div>
 			</div>
 		</div>

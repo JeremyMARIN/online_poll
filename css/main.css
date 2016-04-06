@@ -48,6 +48,11 @@ a:visited {
 	color: #3ea2dc;
 }
 
+svg {
+	display: none;
+	margin: auto;
+}
+
 .centered {
 	display: block;
 	margin-left: auto;
