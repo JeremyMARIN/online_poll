@@ -42,6 +42,7 @@ include("include/helpers.php");
 
 				<div class="text-centered">
 					<a href="index.html"><button class="round" type="button">Go back to the poll</button></a>
+					<a href="admin.html" style="margin-left: 5%; margin-right: 5%;"><button class="round" type="button">See the results</button></a>
 				</div>
 			</div>
 		</div>
